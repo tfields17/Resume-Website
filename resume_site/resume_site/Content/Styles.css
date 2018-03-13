@@ -1,0 +1,511 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+
+html, body {
+    height: 90%;
+}
+
+/*p.copyright {
+    position:absolute;
+    width:100%;
+    line-height:30px;
+    bottom:0;
+}*/
+.navbar-inner {
+    background-color:firebrick;
+    border:none;
+}
+.nav.navbar-nav li a {
+    color: white;
+    font-family:serif;
+}
+.nav.navbar-nav li a:hover {
+    color: #BABABA;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-family:serif;
+}
+@media (min-width:650px) {
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color:transparent;
+        text-align:center;
+        color:white;
+        font-size:10px;
+    }
+    body.index {
+        background-image: url(../images/city.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        /*margin-bottom: 50px;*/
+    }
+    body.about {
+        background-image: url(../images/keyboard.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        min-width:1000px;
+        /*margin-bottom: 50px;*/
+    }
+    body.contact {
+        background-image: url(../images/phone.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        /*margin-bottom: 50px;*/
+    }
+
+    /*Index CSS*/
+    .CenterBlock {
+        float: none;
+        margin-top: 60px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 30px;
+        height: 600px;
+        min-width: 700px;
+    }
+
+    .MainName {
+        color: white;
+        font-size: 125px;
+        text-align: center;
+        font-family: serif;
+    }
+
+    .MainOccupation {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: serif;
+    }
+
+    .CenterBlockBox {
+        padding-top:25px;
+        border-radius: 25px;
+        background-color: rgba(178, 34, 34, 0.85);
+        height: 225px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 50px;
+        width: 650px;
+    }    
+
+    .ShortDescription {
+        border-radius: 25px;
+        color: black;
+        font-size: 20px;
+        text-align: left;
+        font-family: serif;
+        padding-left: 20px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        width: 600px;
+        /*margin-top: 25px;*/
+        margin-left: auto;
+        margin-right: auto;        
+        background-color: white;
+        height: 175px;
+        min-width: 500px;
+    }
+    /*About CSS*/
+    .AboutHolder {
+        width: 1920px;
+        margin: 0 auto;
+    }
+    .AboutHeader {
+       text-align: center;
+       font-family: serif;
+       font-size: 100px;
+       color: white;
+    }
+    .TechnicalSkills {
+        margin-left: 15%;   
+        margin-bottom: 5%;
+        background: rgba(178, 34, 34, 0.85);
+        border-radius: 25px;
+        float:left;
+        min-height: 640px;
+        min-width: 420px;
+        display: inline-block;
+        
+    }
+    .TechnicalSkillsHeader {
+        padding-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-family: serif;
+        color: white;
+    }
+    .TechnicalSkillsBox {
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color: white;/*rgba(178, 34, 34, 0.85);*/
+        height: 550px;
+        min-width: 400px;
+    }
+    .Skills {
+        margin-left: 30px;
+        font-family: serif;
+        font-size: 17.5px;
+    }
+    .AboutMe {             
+        margin-right: 15%;
+        min-height: 310px;
+        min-width: 860px;
+        background: rgba(178, 34, 34, 0.85);
+        border-radius: 25px;
+        float: right;
+    }
+    .AboutMeHeader {
+        padding-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-family: serif;
+        color: white;
+    }
+    .AboutMeBox {
+        
+        border-radius: 25px;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color: white;/*rgba(178, 34, 34, 0.85);*/
+        height: 220px;
+        min-width: 400px;
+    }
+    .Me {
+        word-wrap: break-word;
+        width: 750px;
+        margin-left: 28px;
+        font-family: serif;
+        font-size: 17.5px;
+    }
+    .Extra {
+        margin-top: 20px;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        min-height: 310px;
+        min-width: 860px;
+        background: rgba(178, 34, 34, 0.85);
+        border-radius: 25px;
+        float: right;
+    }
+    .ExtraHeader {
+        padding-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-family: serif;
+        color: white;
+    }
+    .ExtraBox {
+        border-radius: 25px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color: white;/*rgba(178, 34, 34, 0.85);*/
+        height: 220px;
+        min-width: 400px;
+    }
+    .ExtraInfo {
+        word-wrap: break-word;
+        width: 750px;
+        margin-left: 28px;
+        font-family: serif;
+        font-size: 17.5px;
+    }
+    /*Contact CSS*/
+    .ContactBlock {
+        float: none;
+        margin-top: 100px;
+        margin-left: 55%;
+        /*margin-right: 15%;*/
+        /*margin-bottom: 30px;*/
+        /*height: 600px;*/
+        /*min-width: 700px;*/
+        border-radius: 25px;
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        font-family: serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /*margin-top: 50px;*/
+        width: 600px;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+        background-color: rgba(178, 34, 34, 1);
+        height: 300px;
+        min-width: 500px;
+
+    }
+    .ContactHeader {
+        font-size: 50px;
+        text-align: center;
+        font-family: serif;
+    }
+    .ContactBox {
+        border-radius: 25px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color: white;/*rgba(178, 34, 34, 0.85);*/
+        height: 175px;
+        min-width: 400px;
+    }
+    .ContactInformation {
+        /*margin-top:20px;*/
+        /*margin-left:30px;*/
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        font-family: serif;
+    }
+}
+@media (max-width: 650px) {
+    body {
+    background-color:black;
+
+    }
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 25px;
+        background-color:transparent;
+        text-align:center;
+        color:white;
+        font-size:10px;
+    }
+    /*Index CSS*/
+    .CenterBlock {
+        width:90%;
+        float:none;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 50px;
+    }
+
+    .MainName {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: serif;
+    }
+
+    .MainOccupation {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        font-family: serif;
+    }
+    .CenterBlockBox {
+        padding-top:17.5px;
+        border-radius: 25px;
+        background-color: rgba(178, 34, 34, 0.85);
+        height: 275px;
+        margin-left:5%;
+        margin-right:5%;
+        margin-top: 40px;
+
+    }
+
+    .ShortDescription {
+        border-radius: 25px;
+        color: black;
+        font-size: 15px;
+        text-align: left;
+        font-family: serif;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        /*margin-top: 50px;*/
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: white;
+        height: auto;
+    }
+    /*About CSS*/
+    .aboutholder {
+        /*nothing needed*/
+    }
+    .AboutHeader {
+       text-align: center;
+       font-family: serif;
+       font-size: 40px;
+       color: white;
+    }
+    .TechnicalSkills {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;   
+        /*margin-bottom: 5%;*/
+        background:  rgba(178, 34, 34, 1);
+        border-radius: 25px;
+        /*float:left;*/
+        min-height: 640px;
+        /*min-width: 420px;*/
+        /*display: inline-block;*/
+        
+    }
+    .TechnicalSkillsHeader {
+        padding-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-family: serif;
+        color: white;
+    }
+    .TechnicalSkillsBox {
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color: white;/*rgba(178, 34, 34, 0.85);*/
+        height: 550px;
+        /*min-width: 400px;*/
+    }
+    .Skills {
+        margin-left: 30px;
+        font-family: serif;
+        font-size: 17.5px;
+    }
+    .AboutMe {     
+        margin-top: 5%;        
+        margin-left: 5%;
+        margin-right: 5%;
+        min-height: 310px;
+        /*min-width: 860px;*/
+        background: rgba(178, 34, 34, 1);
+        border-radius: 25px;
+        float: right;
+        height: 720px;
+    }
+    .AboutMeHeader {
+        padding-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-family: serif;
+        color: white;
+    }
+    .AboutMeBox {
+        
+        border-radius: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color: white;/*rgba(178, 34, 34, 0.85);*/
+        height: 630px;
+        /*min-width: 400px;*/
+    }
+    .Me {
+        word-wrap: break-word;
+        /*width: 750px;*/
+        margin-left: 28px;
+        font-family: serif;
+        font-size: 17.5px;
+    }
+    .Extra {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+        min-height: 700px;
+        /*min-width: 860px;*/
+        background: rgba(178, 34, 34, 1);
+        border-radius: 25px;
+        float: right;
+    }
+    .ExtraHeader {
+        padding-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-family: serif;
+        color: white;
+    }
+    .ExtraBox {
+        border-radius: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color: white;/*rgba(178, 34, 34, 0.85);*/
+        height: 610px;
+        /*min-width: 400px;*/
+    }
+    .ExtraInfo {
+        word-wrap: break-word;
+        /*width: 750px;*/
+        margin-left: 28px;
+        font-family: serif;
+        font-size: 17.5px;
+    }
+    /*Contact CSS*/
+    .ContactBlock {
+        float: none;
+        margin-top:10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: white;
+        font-size: 20px;
+    }
+    .ContactHeader {
+        font-size: 50px;
+        text-align: center;
+        font-family: serif;
+    }
+    .ContactBox {
+        border-radius: 25px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+        background-color: firebrick;/*rgba(178, 34, 34, 0.85);*/
+        height: 150px;
+        /*min-width: 400px;*/
+    }
+    .ContactInformation {
+        margin-right:5%;
+        margin-left:5%;
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: serif;
+        background-color: white;
+        border-radius: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height:110px;
+    }
+}
